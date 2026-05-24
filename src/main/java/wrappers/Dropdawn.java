@@ -22,6 +22,5 @@ public class Dropdawn extends BasePage {
                 (By.xpath(String.format(SELECT_PATTERN + "select", label))).click();
         driver.findElement
                 (By.xpath(String.format(SELECT_PATTERN + "option[contains(text(), '%s')]", label, option))).click();
-
     }
 }
